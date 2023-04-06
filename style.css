@@ -1,0 +1,91 @@
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+.logo{
+    width: 130px;
+    height: 100px;
+    margin: 10px;
+}
+
+.navitems {
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-links {
+    padding-right: 20px;
+    display: flex;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+div {
+    display: block;
+}
+
+.bgimg-1 {
+    background-image: url(img/1.jpg);
+    min-height: 100%;
+}
+
+.bgimg-1, .bgimg-2{
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 28px;
+    letter-spacing: 10px;
+}
+
+.para-1, .para-2 {
+    color: #777;
+    background-color: white;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+.bgimg-2 {
+    background-image: url(img/2.jpg);
+    min-height: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    color: #777;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    flex-basis: 300px;
+    height: 300px;
+    margin: 25px;
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
